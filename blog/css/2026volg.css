@@ -1815,8 +1815,12 @@ input[type="checkbox"]:checked + span {
 
 
 .author_more_btn {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
   padding: 12px 32px;
-  border: 1px solid #c8a0a0;
+  border: 2px solid #c8a0a0;
   background: #fff;
   color: #a66;
   border-radius: 8px;
