@@ -605,6 +605,7 @@ a:hover {
   font-family: "Noto Sans TC", sans-serif;
   font-size: 2.2em;
   font-weight: 500;
+  letter-spacing: 0.05rem;
   color: rgb(9, 2, 49);
   line-height: normal;
 }
@@ -1460,6 +1461,7 @@ input[type="checkbox"]:checked + span {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.2em;
   font-weight: 500;
+  letter-spacing: 0.05rem;
   color: #090231;
   line-height: normal;
   text-align: center;
@@ -1706,6 +1708,7 @@ input[type="checkbox"]:checked + span {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.2em;
   font-weight: 500;
+  letter-spacing: 0.05rem;
   color: #090231;
   line-height: normal;
   text-align: center;
