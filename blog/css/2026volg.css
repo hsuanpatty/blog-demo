@@ -1697,6 +1697,11 @@ input[type="checkbox"]:checked + span {
 }
 
 /* 專欄作家 */
+
+.tab_inner .author  .container {
+  padding: 20px 0 40px;
+}
+
 .author .volg-owl-title {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.2em;
