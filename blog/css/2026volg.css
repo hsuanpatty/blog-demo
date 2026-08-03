@@ -1111,16 +1111,24 @@ input[type="checkbox"]:checked + span {
 }
 
 .festival_box .title {
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
-  font-weight: 600;
-  color: #333333;
-  margin-bottom: 12px;
-  min-height: 92px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 12px;
+    text-align: justify;
+    letter-spacing: 0.05rem;
 
-  text-align: justify;
-  letter-spacing: 0.05rem;
+    /* 超過 3 行隱藏 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+
+    /* 3 行高度 */
+    min-height: calc(1.6em * 3);
+    max-height: calc(1.6em * 3);
 }
 
 /* 內文 */
@@ -1242,7 +1250,7 @@ input[type="checkbox"]:checked + span {
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, .25),
-    rgba(0, 0, 0, .85)
+    rgba(0, 0, 0, .80)
   );
 }
 
